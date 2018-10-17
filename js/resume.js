@@ -24,5 +24,8 @@
   $('body').scrollspy({
     target: '#sideNav'
   });
+  $(document).ready(function () {
+    $('#preloader').delay(200).fadeOut('slow');
+  });
 
 })(jQuery); // End of use strict
